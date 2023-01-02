@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 390px) {
     /*change 600px to 400px for mobile at end*/
     body {
         font-family: Arial;
@@ -14,7 +14,7 @@
         justify-content: center;
         align-items: center;
         border: lightgrey solid 3px;
-        font-size: 20px;
+        font-size: 10px;
     }
     .alert-info a {
         text-decoration: none;
@@ -42,7 +42,7 @@
         text-align: center;
     }
     .header-img > img {
-        max-width: 339px;
+        max-width: 390px;
         /*max-height: 224px;*/
     }
 }
