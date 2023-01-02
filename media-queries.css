@@ -62,7 +62,7 @@ i{
 
 
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 450px) {
     /*change 600px to 400px for mobile at end*/
     body {
         display: flex;
