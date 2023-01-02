@@ -33,6 +33,7 @@ li {
     max-width: 99%;
 }
 .main {
+    vertical-align: top;
     max-width: 55%;
     display: inline-block;
 
