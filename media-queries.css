@@ -1,12 +1,47 @@
 body  {
     font-family: Arial;
 }
+.hidden-on-desktop {
+    display: none;
+}
+nav {
+    float: right;
+}
+h1{
+    display: inline-block;
+    font-size: 40px;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    padding: 10px 0;
+}
 
+li {
+    padding-left: 1em;
+    padding-right: .5em;
+}
 
+.header-img {
+    display: grid;
+    place-items: center;
+}
 
-
-
-
+.header-img > img {
+    max-width: 99%;
+}
+.main {
+    max-width: 55%;
+    display: inline-block;
+}
+.sub-section {
+    padding-left: 25px;
+    max-width: 38%;
+    display: inline-block;
+}
+footer {
+    padding-top: 200px;
+}
 
 
 
@@ -45,7 +80,7 @@ body  {
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        list-style: none;
+        /*list-style: none;*/
         padding-left: 0px;
     }
     li {
