@@ -1,7 +1,20 @@
+body  {
+    font-family: Arial;
+}
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 390px) {
     /*change 600px to 400px for mobile at end*/
     body {
-        font-family: Arial;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -14,7 +27,7 @@
         justify-content: center;
         align-items: center;
         border: lightgrey solid 3px;
-        font-size: 10px;
+        font-size: 18px;
     }
     .alert-info a {
         text-decoration: none;
@@ -30,9 +43,10 @@
         width: 98%;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
         list-style: none;
+        padding-left: 0px;
     }
     li {
         background-color: lightgrey;
@@ -40,9 +54,14 @@
         padding: 15px 0;
         width: 98%;
         text-align: center;
+
     }
     .header-img > img {
-        max-width: 390px;
+        max-width: 339px;
         /*max-height: 224px;*/
+    }
+
+    .sub-section {
+        font-style: italic;
     }
 }
